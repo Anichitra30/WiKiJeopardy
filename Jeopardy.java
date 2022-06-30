@@ -189,11 +189,6 @@ public class Watson<Arraylist>
                     }
                     else {
                         if(a) {
-                            /*Tried it with extracting only the first 4 sentences and indexing it then removing the stopwords
-                            String isbnArr[] = content.split("(?<=[a-z])\\.\\s+");
-                            String isbn=(isbnArr.length>0?(isbnArr.length>4?isbnArr[0]+isbnArr[1]+isbnArr[2]+isbnArr[3]:isbnArr[0]):content);
-                            String isbn=removeSW(content);*/
-
                             addDoc(w, title, content);//adding it into the document
                             title = match.group(1);//adding for the next title
                             content = "";//resetting the content
