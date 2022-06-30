@@ -1,4 +1,6 @@
-To answer the questions from Jeopardy using the Wikipedia, this is an implementation of a part of IBM Watson.
+
+# Objective
+To answer the questions from Jeopardy using the Wikipedia pages, this is an implementation of a part of IBM Watson.
 
 Built usng Apache Lucene and Stanford CoreNLP.
 
